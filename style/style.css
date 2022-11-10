@@ -11,10 +11,12 @@ header {
     width: 1200px;
 }
 
-
+.ul {
+    border: 5px;
+}
 
 .namemenu {
+    font-size: large;
     display: inline-block;
-    background-color: aqua;
-
+    border: 5px;
 }
