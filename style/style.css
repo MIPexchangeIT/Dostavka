@@ -1,33 +1,44 @@
 body {
-    font-family: 'Courier New', Courier, monospace;
-}
-
-header {
-    margin-top: -10px; /*шляпа - поправить*/
-    text-align: center;
-    padding-top: 25px;
-}
-
-h1 {
+    font-family: 'Roboto', sans-serif;
     margin: 0;
 }
 
-.intro {
-    width: 100%;
-    height: 75vh;
-    background: 
+.container {
+    margin: 0px 166px;
+}
+
+.header {
+    background-image: 
     url(../images/headimage.jpg);
+    height: 100vh;
+    background-size: cover;
 }
 
-.stylemenu {
-    margin: 0;
-    background-color: aqua;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    text-align: right;
+.headmenu {
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
-.namemenu {
-    font-size: large;
-    border: 10px;
+.nav-item {
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    margin-right: 25px;
+}
+
+.knopka {
+    background-color: rgb(212, 145, 19);
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 14px 18px;
+}
+
+.cart-img {
+    height: 36px;
 }
