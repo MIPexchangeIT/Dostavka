@@ -3,6 +3,12 @@ body {
     margin: 0;
 }
 
+.test {
+    background-color: rgb(73, 73, 73);
+    background: rgba(73, 73, 73, 0.5);
+
+}
+
 .container {
     margin: 0px 166px;
 }
@@ -15,7 +21,8 @@ body {
 }
 
 .headmenu {
-    padding-top: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -27,6 +34,12 @@ body {
     font-weight: 500;
     font-size: 18px;
     margin-right: 25px;
+    transition: background-color 0.3s linear;
+}
+
+.nav-item:hover {
+    background-color: rgb(134, 114, 114);
+    padding: 10px 0px;
 }
 
 .knopka {
