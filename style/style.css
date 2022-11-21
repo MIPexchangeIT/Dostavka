@@ -1,6 +1,18 @@
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
+    background-color: rgb(249, 240, 229);
+    height: 500px;
+
+}
+
+.header {
+    background-image: 
+    url(../images/headimage.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .test {
@@ -11,13 +23,6 @@ body {
 
 .container {
     margin: 0px 166px;
-}
-
-.header {
-    background-image: 
-    url(../images/headimage.jpg);
-    height: 100vh;
-    background-size: cover;
 }
 
 .headmenu {
@@ -32,26 +37,38 @@ body {
     color: aliceblue;
     text-decoration: none;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 20px;
     margin-right: 25px;
-    transition: background-color 0.3s linear;
+    transition: color 0.3s linear;
 }
 
 .nav-item:hover {
-    background-color: rgb(134, 114, 114);
-    padding: 10px 0px;
+    color: rgb(72, 174, 127);
+    padding-bottom: 20px;
 }
 
 .knopka {
-    background-color: rgb(212, 145, 19);
+    background-color: rgb(19, 61, 212);
     color: aliceblue;
     text-decoration: none;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 500;
     padding: 14px 18px;
+    transition: background-color 0.3s linear;
+}
+
+.knopka:hover {
+    background-color: rgb(31, 72, 153);
 }
 
 .cart-img {
     height: 36px;
+}
+
+.header-title {
+    margin: 166px 200px;
+    color: rgb(7, 6, 6);
+    font-family: 'Bitter', serif;
+    font-size: 50px;
 }
