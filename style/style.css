@@ -1,33 +1,29 @@
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
-    background-color: rgb(249, 240, 229);
-    height: 500px;
+    background: linear-gradient(#424040, #dab5b0)
+    /* как сделать фон только на ширину header */
 }
 
 .header {
     background-image: 
-    url(../images/headimage.jpg);
+    url(../images/macbook-test.png);
     height: 100vh;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
 
-.test {
+.headup {
     transition: background-color 0.3s linear;
 }
 
-.test:hover {
+.headup:hover {
     background-color: rgba(255, 255, 255, 0.7);
 }
 
-.test:hover .nav-item {
+.headup:hover .nav-item {
     color: rgb(0, 0, 0);
-}
-
-.container {
-    margin: 0px 166px;
 }
 
 .headmenu {
@@ -38,6 +34,10 @@ body {
     justify-content: space-around;
 }
 
+.header-logo {
+/* надо понять как двигать лого без двжиения остального
+контента */
+}
 
 .nav-item {
     color: aliceblue;
@@ -47,6 +47,7 @@ body {
     margin-right: 25px;
     transition: color 0.3s linear;
     cursor: pointer;
+    
 }
 
 .nav-item:hover {
@@ -71,36 +72,53 @@ body {
 }
 
 .cart-img {
-    height: 36px;
+    height: 50px;
 }
 
 .header-down {
-    background-color: rgb(69, 69, 69);
-    mix-blend-mode: overlay;
+    background-color: rgb(104, 104, 104);
+    mix-blend-mode: multiply;
+    margin-right: 250px;
 }
 
 .header-title {
     font-family: 'Bitter', serif;
-    margin: 150px 150px;
-    color: rgb(247, 206, 206);
+    margin: 180px 150px;
+    color: rgb(255, 255, 255);
     font-size: 110px;
-    text-align: center;
+    text-align: left;
+}
+
+.onelevel {
+    background-color: rgb(255, 255, 255);
+    margin-top: 20px;
 }
 
 .containerpage {
-    margin: 10px 50px;
+
 }
 
 .macbookblock {
-    
-    background-color: rgb(84, 81, 81);
-}
-
-.macbookimg {
+    margin: 0px;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgba(129, 129, 129, 0.7);
+    background-image: 
+    url(../images/padeimg/macbookpade.png);
+    background-size: cover;
     width: 1000px;
+    height: 400px;
 }
 
 .macbook-title {
-    color: aliceblue;
+    padding-top: 20px;
+    color: rgb(255, 255, 255);
     font-size: 35px;
+    text-align: center;
+}
+
+.buymacbook {
+    padding-top: 10px;
+    color: aliceblue;
+    font-size: 20px;
+    text-align: center;
 }
