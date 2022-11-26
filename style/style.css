@@ -1,7 +1,8 @@
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
-    background: linear-gradient(#424040, #dab5b0)
+    background: linear-gradient(#424040, #dab5b0);
+    height: 100%;
     /* как сделать фон только на ширину header */
 }
 
@@ -27,8 +28,8 @@ body {
 }
 
 .headmenu {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -89,36 +90,44 @@ body {
     text-align: left;
 }
 
-.onelevel {
+.mainpage {
     background-color: rgb(255, 255, 255);
-    margin-top: 20px;
+    margin-top: 0px;
 }
 
-.containerpage {
-
+/* чисто сделать местомежду блоками */
+.probel { 
+    background-color: white;
+    height: 20px;
 }
 
-.macbookblock {
-    margin: 0px;
-    border: 2px solid rgb(0, 0, 0);
-    background-color: rgba(129, 129, 129, 0.7);
-    background-image: 
-    url(../images/padeimg/macbookpade.png);
-    background-size: cover;
-    width: 1000px;
-    height: 400px;
+.iphoneblock {
+    align-items: center;
+    border-top: 2px solid rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.7);
 }
 
-.macbook-title {
+.iphonename {
     padding-top: 20px;
-    color: rgb(255, 255, 255);
-    font-size: 35px;
+    color: rgb(0, 0, 0);
+    font-size: 45px;
+    font-weight: bolder;
     text-align: center;
 }
 
-.buymacbook {
-    padding-top: 10px;
-    color: aliceblue;
-    font-size: 20px;
+.buyiphone {
     text-align: center;
+    padding-top: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.iphonetest {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.iphonetest img {
+    height: 50vh;
+
 }
